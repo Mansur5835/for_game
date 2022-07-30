@@ -1,1 +1,1 @@
-enum Diraction { right, left, up, down }
+enum Diraction { right, left, up, down, none }
