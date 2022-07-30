@@ -59,7 +59,9 @@ class _GridViewComponentState extends State<GridViewComponent> {
       child: Scaffold(
           backgroundColor: Colors.black,
           body: SafeArea(
+            bottom: false,
             child: GridView.count(
+              physics: NeverScrollableScrollPhysics(),
               crossAxisCount: 20,
               children: List.generate(countHeight, (index) {
                 return Container(

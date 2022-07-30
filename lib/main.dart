@@ -4,6 +4,7 @@ import 'package:for_game/screens/collision_elements.dart';
 import 'package:for_game/screens/grid_view_component.dart';
 import 'package:for_game/screens/map_control.dart';
 import 'package:for_game/screens/mario_animation_component.dart';
+import 'package:for_game/screens/move_with_positioned.dart';
 
 void main(List<String> args) {
   runApp(App());
@@ -15,7 +16,7 @@ class App extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      home: MapControl(),
+      home: MarioAnimationCompanent(),
     );
   }
 }

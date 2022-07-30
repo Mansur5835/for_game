@@ -36,7 +36,7 @@ class _MoveWithPositionedState extends State<MoveWithPositioned> {
   }
 
   _controlY() {
-    if (y > size.height - 40) {
+    if (y > size.height - 100) {
       diraction = Diraction.up;
       if (!loadV0) {
         v0 = (a * t * t / 2) / 2;
